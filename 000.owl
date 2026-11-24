@@ -1,0 +1,579 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/admin（无密码）/ontologies/2026/10/Medical_student/"
+     xml:base="http://www.semanticweb.org/admin（无密码）/ontologies/2026/10/Medical_student/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:Medical_student="http://www.semanticweb.org/admin（无密码）/ontologies/2026/10/Medical_student#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/admin（无密码）/ontologies/2026/10/Medical_student"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/admin（无密码）/ontologies/2026/10/Medical_student#appliesIn -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/admin（无密码）/ontologies/2026/10/Medical_student#appliesIn">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/admin（无密码）/ontologies/2026/10/Medical_student#医学生"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/admin（无密码）/ontologies/2026/10/Medical_student#使用场景"/>
+        <rdfs:comment>医学生 appliesin 使用场景</rdfs:comment>
+        <rdfs:label>应用于场景</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/admin（无密码）/ontologies/2026/10/Medical_student#choosesSource -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/admin（无密码）/ontologies/2026/10/Medical_student#choosesSource">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/admin（无密码）/ontologies/2026/10/Medical_student#医学生"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/admin（无密码）/ontologies/2026/10/Medical_student#信息源"/>
+        <rdfs:comment>医学生 choosessource 信息源</rdfs:comment>
+        <rdfs:label>选择信息源</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/admin（无密码）/ontologies/2026/10/Medical_student#conductsVerification -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/admin（无密码）/ontologies/2026/10/Medical_student#conductsVerification">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/admin（无密码）/ontologies/2026/10/Medical_student#医学生"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/admin（无密码）/ontologies/2026/10/Medical_student#信息核实行为"/>
+        <rdfs:comment>医学生 conductsverification 信息核实行为</rdfs:comment>
+        <rdfs:label>进行审核</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/admin（无密码）/ontologies/2026/10/Medical_student#demandsEducation -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/admin（无密码）/ontologies/2026/10/Medical_student#demandsEducation">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/admin（无密码）/ontologies/2026/10/Medical_student#医学生"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/admin（无密码）/ontologies/2026/10/Medical_student#教育需求"/>
+        <rdfs:comment>医学生 demandseducation 教育需求</rdfs:comment>
+        <rdfs:label>需求教育</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/admin（无密码）/ontologies/2026/10/Medical_student#hasLiteracy -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/admin（无密码）/ontologies/2026/10/Medical_student#hasLiteracy">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/admin（无密码）/ontologies/2026/10/Medical_student#医学生"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/admin（无密码）/ontologies/2026/10/Medical_student#AI素养"/>
+        <rdfs:comment>医学生 hasliteracy AI素养</rdfs:comment>
+        <rdfs:label>具有素养</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/admin（无密码）/ontologies/2026/10/Medical_student#perceivesRisk -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/admin（无密码）/ontologies/2026/10/Medical_student#perceivesRisk">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/admin（无密码）/ontologies/2026/10/Medical_student#医学生"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/admin（无密码）/ontologies/2026/10/Medical_student#风险感知"/>
+        <rdfs:comment>医学生 perceivesridk 风险感知</rdfs:comment>
+        <rdfs:label>感知风险</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/admin（无密码）/ontologies/2026/10/Medical_student#showsImpact -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/admin（无密码）/ontologies/2026/10/Medical_student#showsImpact">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/admin（无密码）/ontologies/2026/10/Medical_student#医学生"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/admin（无密码）/ontologies/2026/10/Medical_student#使用影响"/>
+        <rdfs:comment>医学生 showsimpact 使用影响</rdfs:comment>
+        <rdfs:label>呈现影响</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/admin（无密码）/ontologies/2026/10/Medical_student#usesTool -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/admin（无密码）/ontologies/2026/10/Medical_student#usesTool">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/admin（无密码）/ontologies/2026/10/Medical_student#医学生"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/admin（无密码）/ontologies/2026/10/Medical_student#AI工具"/>
+        <rdfs:comment>医学生 usestool AI工具</rdfs:comment>
+        <rdfs:label>使用工具</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/admin（无密码）/ontologies/2026/10/Medical_student#verifiesWith -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/admin（无密码）/ontologies/2026/10/Medical_student#verifiesWith">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/admin（无密码）/ontologies/2026/10/Medical_student#信息核实行为"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/admin（无密码）/ontologies/2026/10/Medical_student#信息源"/>
+        <rdfs:comment>信息核实行为 verifiesWith 信息源</rdfs:comment>
+        <rdfs:label>借助信息源核实</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/admin（无密码）/ontologies/2026/10/Medical_student#databaseUseChange -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/admin（无密码）/ontologies/2026/10/Medical_student#databaseUseChange">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/admin（无密码）/ontologies/2026/10/Medical_student#信息源"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>数据库使用变化</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/admin（无密码）/ontologies/2026/10/Medical_student#dependenceScore -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/admin（无密码）/ontologies/2026/10/Medical_student#dependenceScore">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/admin（无密码）/ontologies/2026/10/Medical_student#使用影响"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+        <rdfs:label>认知依赖得分</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/admin（无密码）/ontologies/2026/10/Medical_student#gender -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/admin（无密码）/ontologies/2026/10/Medical_student#gender">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/admin（无密码）/ontologies/2026/10/Medical_student#医学生"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>性别</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/admin（无密码）/ontologies/2026/10/Medical_student#grade -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/admin（无密码）/ontologies/2026/10/Medical_student#grade">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/admin（无密码）/ontologies/2026/10/Medical_student#医学生"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>年级</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/admin（无密码）/ontologies/2026/10/Medical_student#hallucinationAnswer -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/admin（无密码）/ontologies/2026/10/Medical_student#hallucinationAnswer">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/admin（无密码）/ontologies/2026/10/Medical_student#信息核实行为"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>幻觉识别答案</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/admin（无密码）/ontologies/2026/10/Medical_student#majorCategory -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/admin（无密码）/ontologies/2026/10/Medical_student#majorCategory">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/admin（无密码）/ontologies/2026/10/Medical_student#医学生"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>专业大类</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/admin（无密码）/ontologies/2026/10/Medical_student#retrievalCourse -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/admin（无密码）/ontologies/2026/10/Medical_student#retrievalCourse">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/admin（无密码）/ontologies/2026/10/Medical_student#医学生"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>检索课程修读情况</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/admin（无密码）/ontologies/2026/10/Medical_student#reworkCount -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/admin（无密码）/ontologies/2026/10/Medical_student#reworkCount">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/admin（无密码）/ontologies/2026/10/Medical_student#信息核实行为"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>返工次数</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/admin（无密码）/ontologies/2026/10/Medical_student#studentId -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/admin（无密码）/ontologies/2026/10/Medical_student#studentId">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/admin（无密码）/ontologies/2026/10/Medical_student#医学生"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>匿名编号</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/admin（无密码）/ontologies/2026/10/Medical_student#usageFrequency -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/admin（无密码）/ontologies/2026/10/Medical_student#usageFrequency">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/admin（无密码）/ontologies/2026/10/Medical_student#医学生"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>使用频率</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/admin（无密码）/ontologies/2026/10/Medical_student#verificationRatio -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/admin（无密码）/ontologies/2026/10/Medical_student#verificationRatio">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/admin（无密码）/ontologies/2026/10/Medical_student#信息核实行为"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>核实比例</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/admin（无密码）/ontologies/2026/10/Medical_student#AI工具 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/admin（无密码）/ontologies/2026/10/Medical_student#AI工具"/>
+    
+
+
+    <!-- http://www.semanticweb.org/admin（无密码）/ontologies/2026/10/Medical_student#AI素养 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/admin（无密码）/ontologies/2026/10/Medical_student#AI素养"/>
+    
+
+
+    <!-- http://www.semanticweb.org/admin（无密码）/ontologies/2026/10/Medical_student#专业数据库 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/admin（无密码）/ontologies/2026/10/Medical_student#专业数据库">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/admin（无密码）/ontologies/2026/10/Medical_student#信息源"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/admin（无密码）/ontologies/2026/10/Medical_student#专业错误识别 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/admin（无密码）/ontologies/2026/10/Medical_student#专业错误识别">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/admin（无密码）/ontologies/2026/10/Medical_student#信息核实行为"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/admin（无密码）/ontologies/2026/10/Medical_student#交叉验证 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/admin（无密码）/ontologies/2026/10/Medical_student#交叉验证">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/admin（无密码）/ontologies/2026/10/Medical_student#信息核实行为"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/admin（无密码）/ontologies/2026/10/Medical_student#伦理维度 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/admin（无密码）/ontologies/2026/10/Medical_student#伦理维度">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/admin（无密码）/ontologies/2026/10/Medical_student#AI素养"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/admin（无密码）/ontologies/2026/10/Medical_student#作业与论文写作 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/admin（无密码）/ontologies/2026/10/Medical_student#作业与论文写作">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/admin（无密码）/ontologies/2026/10/Medical_student#使用场景"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/admin（无密码）/ontologies/2026/10/Medical_student#使用场景 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/admin（无密码）/ontologies/2026/10/Medical_student#使用场景"/>
+    
+
+
+    <!-- http://www.semanticweb.org/admin（无密码）/ontologies/2026/10/Medical_student#使用影响 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/admin（无密码）/ontologies/2026/10/Medical_student#使用影响"/>
+    
+
+
+    <!-- http://www.semanticweb.org/admin（无密码）/ontologies/2026/10/Medical_student#信息核实行为 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/admin（无密码）/ontologies/2026/10/Medical_student#信息核实行为"/>
+    
+
+
+    <!-- http://www.semanticweb.org/admin（无密码）/ontologies/2026/10/Medical_student#信息源 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/admin（无密码）/ontologies/2026/10/Medical_student#信息源"/>
+    
+
+
+    <!-- http://www.semanticweb.org/admin（无密码）/ontologies/2026/10/Medical_student#出处追溯 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/admin（无密码）/ontologies/2026/10/Medical_student#出处追溯">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/admin（无密码）/ontologies/2026/10/Medical_student#信息核实行为"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/admin（无密码）/ontologies/2026/10/Medical_student#医学专用AI -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/admin（无密码）/ontologies/2026/10/Medical_student#医学专用AI">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/admin（无密码）/ontologies/2026/10/Medical_student#AI工具"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/admin（无密码）/ontologies/2026/10/Medical_student#医学生 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/admin（无密码）/ontologies/2026/10/Medical_student#医学生"/>
+    
+
+
+    <!-- http://www.semanticweb.org/admin（无密码）/ontologies/2026/10/Medical_student#参考文献核查 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/admin（无密码）/ontologies/2026/10/Medical_student#参考文献核查">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/admin（无密码）/ontologies/2026/10/Medical_student#信息核实行为"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/admin（无密码）/ontologies/2026/10/Medical_student#失控使用 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/admin（无密码）/ontologies/2026/10/Medical_student#失控使用">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/admin（无密码）/ontologies/2026/10/Medical_student#使用影响"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/admin（无密码）/ontologies/2026/10/Medical_student#学术不端风险 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/admin（无密码）/ontologies/2026/10/Medical_student#学术不端风险">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/admin（无密码）/ontologies/2026/10/Medical_student#风险感知"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/admin（无密码）/ontologies/2026/10/Medical_student#师生人际来源 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/admin（无密码）/ontologies/2026/10/Medical_student#师生人际来源">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/admin（无密码）/ontologies/2026/10/Medical_student#信息源"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/admin（无密码）/ontologies/2026/10/Medical_student#幻觉识别 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/admin（无密码）/ontologies/2026/10/Medical_student#幻觉识别">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/admin（无密码）/ontologies/2026/10/Medical_student#信息核实行为"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/admin（无密码）/ontologies/2026/10/Medical_student#技能维度 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/admin（无密码）/ontologies/2026/10/Medical_student#技能维度">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/admin（无密码）/ontologies/2026/10/Medical_student#AI素养"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/admin（无密码）/ontologies/2026/10/Medical_student#指南与教科书 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/admin（无密码）/ontologies/2026/10/Medical_student#指南与教科书">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/admin（无密码）/ontologies/2026/10/Medical_student#信息源"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/admin（无密码）/ontologies/2026/10/Medical_student#指导内容 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/admin（无密码）/ontologies/2026/10/Medical_student#指导内容">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/admin（无密码）/ontologies/2026/10/Medical_student#教育需求"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/admin（无密码）/ontologies/2026/10/Medical_student#搜索引擎 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/admin（无密码）/ontologies/2026/10/Medical_student#搜索引擎">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/admin（无密码）/ontologies/2026/10/Medical_student#信息源"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/admin（无密码）/ontologies/2026/10/Medical_student#教育形式 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/admin（无密码）/ontologies/2026/10/Medical_student#教育形式">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/admin（无密码）/ontologies/2026/10/Medical_student#教育需求"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/admin（无密码）/ontologies/2026/10/Medical_student#教育需求 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/admin（无密码）/ontologies/2026/10/Medical_student#教育需求"/>
+    
+
+
+    <!-- http://www.semanticweb.org/admin（无密码）/ontologies/2026/10/Medical_student#文献检索与翻译 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/admin（无密码）/ontologies/2026/10/Medical_student#文献检索与翻译">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/admin（无密码）/ontologies/2026/10/Medical_student#使用场景"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/admin（无密码）/ontologies/2026/10/Medical_student#本科生 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/admin（无密码）/ontologies/2026/10/Medical_student#本科生">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/admin（无密码）/ontologies/2026/10/Medical_student#医学生"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/admin（无密码）/ontologies/2026/10/Medical_student#独立思考削弱 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/admin（无密码）/ontologies/2026/10/Medical_student#独立思考削弱">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/admin（无密码）/ontologies/2026/10/Medical_student#风险感知"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/admin（无密码）/ontologies/2026/10/Medical_student#生成式AI -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/admin（无密码）/ontologies/2026/10/Medical_student#生成式AI">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/admin（无密码）/ontologies/2026/10/Medical_student#信息源"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/admin（无密码）/ontologies/2026/10/Medical_student#病例分析与复习自测 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/admin（无密码）/ontologies/2026/10/Medical_student#病例分析与复习自测">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/admin（无密码）/ontologies/2026/10/Medical_student#使用场景"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/admin（无密码）/ontologies/2026/10/Medical_student#知识维度 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/admin（无密码）/ontologies/2026/10/Medical_student#知识维度">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/admin（无密码）/ontologies/2026/10/Medical_student#AI素养"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/admin（无密码）/ontologies/2026/10/Medical_student#研究生 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/admin（无密码）/ontologies/2026/10/Medical_student#研究生">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/admin（无密码）/ontologies/2026/10/Medical_student#医学生"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/admin（无密码）/ontologies/2026/10/Medical_student#认知依赖 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/admin（无密码）/ontologies/2026/10/Medical_student#认知依赖">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/admin（无密码）/ontologies/2026/10/Medical_student#使用影响"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/admin（无密码）/ontologies/2026/10/Medical_student#通用大模型 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/admin（无密码）/ontologies/2026/10/Medical_student#通用大模型">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/admin（无密码）/ontologies/2026/10/Medical_student#AI工具"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/admin（无密码）/ontologies/2026/10/Medical_student#错误信息风险 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/admin（无密码）/ontologies/2026/10/Medical_student#错误信息风险">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/admin（无密码）/ontologies/2026/10/Medical_student#风险感知"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/admin（无密码）/ontologies/2026/10/Medical_student#风险感知 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/admin（无密码）/ontologies/2026/10/Medical_student#风险感知"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/admin（无密码）/ontologies/2026/10/Medical_student#AcademicDatabase_ind -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/admin（无密码）/ontologies/2026/10/Medical_student#AcademicDatabase_ind">
+        <rdf:type rdf:resource="http://www.semanticweb.org/admin（无密码）/ontologies/2026/10/Medical_student#专业数据库"/>
+        <Medical_student:databaseUseChange>略有增加</Medical_student:databaseUseChange>
+        <rdfs:comment>专业数据库</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/admin（无密码）/ontologies/2026/10/Medical_student#S001 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/admin（无密码）/ontologies/2026/10/Medical_student#S001">
+        <Medical_student:choosesSource rdf:resource="http://www.semanticweb.org/admin（无密码）/ontologies/2026/10/Medical_student#AcademicDatabase_ind"/>
+        <Medical_student:gender>女</Medical_student:gender>
+        <Medical_student:grade>大三</Medical_student:grade>
+        <Medical_student:majorCategory>临床医学类</Medical_student:majorCategory>
+        <Medical_student:retrievalCourse>已修读</Medical_student:retrievalCourse>
+        <Medical_student:studentId>R001</Medical_student:studentId>
+        <rdfs:comment>一个虚构的学生</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/admin（无密码）/ontologies/2026/10/Medical_student#V001 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/admin（无密码）/ontologies/2026/10/Medical_student#V001">
+        <rdf:type rdf:resource="http://www.semanticweb.org/admin（无密码）/ontologies/2026/10/Medical_student#幻觉识别"/>
+        <Medical_student:verifiesWith rdf:resource="http://www.semanticweb.org/admin（无密码）/ontologies/2026/10/Medical_student#AcademicDatabase_ind"/>
+        <Medical_student:hallucinationAnswer>B</Medical_student:hallucinationAnswer>
+        <Medical_student:verificationRatio>75%以上</Medical_student:verificationRatio>
+        <rdfs:comment>一次虚构的核实行为</rdfs:comment>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+
